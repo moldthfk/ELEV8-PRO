@@ -1,0 +1,94 @@
+/* Reset basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background-color: #1c1c1e;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 2em;
+    background-color: #181818;
+}
+
+header .logo h1 {
+    color: #9b59b6;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1em;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 5em 2em;
+    background-color: #333;
+}
+
+.hero h2 {
+    color: #9b59b6;
+}
+
+.cta-button {
+    display: inline-block;
+    margin-top: 1em;
+    padding: 0.8em 2em;
+    background-color: #9b59b6;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+/* Sections */
+.section {
+    padding: 4em 2em;
+    background-color: #222;
+    margin-top: 2em;
+    text-align: center;
+}
+
+.section:nth-child(even) {
+    background-color: #2c2c2e;
+}
+
+/* Login Section */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+form input, form button {
+    margin-bottom: 1em;
+    padding: 1em;
+    border-radius: 5px;
+    border: none;
+}
+
+form button {
+    background-color: #9b59b6;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
